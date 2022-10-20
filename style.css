@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.field-container {
+    width: min(100vh, 100vw);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.field-container svg {
+    border: 5px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+#field line {
+    stroke: black;
+    stroke-width: 5px;
+}
+
+#field .player {
+    stroke: black;
+    fill: red;
+    width: 5%;
+    height: 5%;
+}
+
+#field .setter {
+    fill: yellow;
+}
+
+#field .libera {
+    fill: black;
+}
+
+#field .back-row {
+    fill: blue;
+}
+
+#ball {
+    fill: green;
+    r: 2%
+}
